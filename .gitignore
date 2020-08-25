@@ -1,0 +1,7 @@
+/node_modules/
+/hotels-Project/
+/.git/
+/.psd/
+/**/Thumbs.db
+/**/*.DS_Store
+/**/package-lock.json

@@ -1,0 +1,18 @@
+// USER VARIABLES SECTION
+$accent: orange; // Accent Color
+$bg-color: #374140;
+$fontsize: 16px; // Body Font Size
+$textcolor: #374140;
+$lightcolor: #ececec;
+$system: -apple-system, BlinkMacSystemFont, Arial, sans-serif; // System Font Family
+$primerfont: primerfont, sans-serif;
+
+//Bootstrap compatible gutter variable => $gutter
+$grid-gutter-width: 20px;
+$gutter: $grid-gutter-width;
+
+// IMPORT SECTION
+@import "../../node_modules/bootstrap/scss/bootstrap-reboot.scss"; // Bootstrap Reboot collection
+@import "../../node_modules/bootstrap/scss/mixins/_breakpoints.scss"; // Bootstrap Breakpoints mixin
+@import "../../node_modules/bootstrap/scss/bootstrap-grid.scss"; // Optional Bootstrap Grid
+@import "../../node_modules/bootstrap/scss/utilities/_sizing.scss"; // Optional Bootstrap Utilites
