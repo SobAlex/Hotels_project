@@ -7,24 +7,26 @@
 .allocation-col {
 }
 .allocation-card {
+	&__img-box {
+		width: 100%;
+		height: 300px;
+
+	}
 	&__img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
 	}
 	&__text {
 	}
 	&__price {
+	}
+	&__stars {
 	}
 	&__name-hotel {
 	}
 	&__country {
 	}
 	&__btn {
-	}
-}
-.allcocation-card {
-	&__img-box {
-	}
-}
-.alocation-card {
-	&__stars {
 	}
 }
